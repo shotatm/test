@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+	margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main_box {
+	width: 960px;
+	margin: 0 auto;
+    text-align: center;
+}
+ul {
+	list-style: none;
+}
+.box {
+	width: 300px;
+	height: 300px;
+	margin: 0 5px 20px;
+	padding: 0 ;
+	border: solid 1px black;
+}
+.box:nth-child(n+7) {
+	width: 300px;
+	height: 300px;
+	margin: 0 5px 0px;
+	padding: 0 ;
+	border: solid 1px black;
+}
+.content-box {
+	width: 936px;
+	margin: 0 auto;
+    text-align: center;
+}
+.red {
+	background-color: red;
+	float: left;
+}
+.blue {
+	background-color: blue;
+	float:left;
+}
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+} 
